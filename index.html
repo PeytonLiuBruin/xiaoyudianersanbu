@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5ecd9" />
+    <link rel="icon" type="image/png" href="./assets/frog_neutral.png" />
+    <meta name="description" content="小雨点儿的一次散步。一个有声音、有照片的小小解谜故事。" />
+    <title>小雨点儿出门了</title>
+  </head>
+  <body>
+    <main id="app">
+      <p class="rotate-note">横过来玩会更舒服，也可以这样慢慢玩。</p>
+      <div id="stage" aria-label="小雨点儿出门了游戏">
+        <div id="canvas-host"></div>
+        <div id="ui"></div>
+        <div id="subtitle" aria-live="polite" aria-atomic="true"></div>
+        <div id="overlay"></div>
+        <div id="loading"><span>小雨点儿出门了</span><p>把故事装进口袋里…</p><progress max="1" value="0"></progress></div>
+      </div>
+      <p class="page-note">一个小小的散步故事 <span>·</span> 点一点，拖一拖，慢慢玩</p>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

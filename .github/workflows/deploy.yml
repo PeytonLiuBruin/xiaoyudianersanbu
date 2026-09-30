@@ -1,0 +1,47 @@
+name: Publish game to GitHub Pages (manual)
+
+# Publishing is an explicit manual action. A push only runs check.yml.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Test game rules
+        run: npm test
+      - name: Build static game
+        run: npm run build
+      - name: Configure Pages
+        uses: actions/configure-pages@v6.0.0
+      - name: Upload built website
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: dist
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

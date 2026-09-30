@@ -1,0 +1,2101 @@
+{
+  "version": 1,
+  "pipeline": "Lossless PNG encoding, strict transparent-edge crop only. Photos and MP3 copied byte-for-byte.",
+  "coordinateNote": "visibleBounds excludes alpha <=16 dust only for positioning and hit-testing; source pixels are preserved. origin anchors the perceptible bottom center. All frog states share one lossless union crop and common animationBounds/animationOrigin. Use one animationBounds-derived scale and each frame origin to keep the feet grounded.",
+  "visualInspection": "All 22 supplied PNGs and 7 photos inspected via a contact sheet. White frog design retained. dog_side faces left; dog_happy faces right. No baked checkerboard backgrounds.",
+  "artwork": [
+    {
+      "key": "album_closed",
+      "filename": "album_closed.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 702284,
+      "lowAlphaPixels": 5562,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 115,
+        "y": 149,
+        "width": 1064,
+        "height": 990,
+        "pixels": 870232
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 117,
+        "y": 151,
+        "width": 1060,
+        "height": 986,
+        "pixels": 864670
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 118,
+        "y": 152,
+        "width": 1059,
+        "height": 984,
+        "pixels": 861848
+      },
+      "crop": {
+        "x": 115,
+        "y": 149,
+        "width": 1064,
+        "height": 990
+      },
+      "sourceBytes": 682016,
+      "outputBytes": 595233,
+      "sourceSha256": "fbbeace1a42e8a39c98a63b934ed86080e20053ac9e9ee922b9adb1e74fd06b2",
+      "outputSha256": "e008842834f7475380729fb87fee74dff50a13edab36dc8d0f93972398ac7017",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "album_open",
+      "filename": "album_open.png",
+      "sourceSize": {
+        "width": 1774,
+        "height": 887
+      },
+      "sourceAspect": 2,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 493575,
+      "lowAlphaPixels": 6493,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 54,
+        "y": 101,
+        "width": 1690,
+        "height": 683,
+        "pixels": 1079963
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 57,
+        "y": 103,
+        "width": 1667,
+        "height": 677,
+        "pixels": 1073470
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 57,
+        "y": 104,
+        "width": 1667,
+        "height": 675,
+        "pixels": 1070125
+      },
+      "crop": {
+        "x": 54,
+        "y": 101,
+        "width": 1690,
+        "height": 683
+      },
+      "sourceBytes": 691172,
+      "outputBytes": 595933,
+      "sourceSha256": "aadf504fcb3e7be9b89a2306b6fa01ce0eb117782492eee430b05ea1b5733ed0",
+      "outputSha256": "60cd0ea093322656a764e829c681ddb62d095307b163540ea6bd4c18815463dd",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "bg_album_pavilion",
+      "filename": "bg_album_pavilion.png",
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceAspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentPixels": 0,
+      "lowAlphaPixels": 0,
+      "cornerRGBA": [
+        [
+          252,
+          246,
+          227,
+          255
+        ],
+        [
+          252,
+          246,
+          226,
+          255
+        ],
+        [
+          200,
+          208,
+          158,
+          255
+        ],
+        [
+          200,
+          211,
+          156,
+          255
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "sourceBytes": 1200212,
+      "outputBytes": 1089189,
+      "sourceSha256": "252eea895c59789f65f22f7c51b7a70ee06d64d0e92d4c95d82a33af0f2d8bc9",
+      "outputSha256": "280fe2f0eab91d94623356be6e220510b5425943304ca24d4e6222e056a3327b",
+      "backgroundInspection": "Intentional opaque scene background."
+    },
+    {
+      "key": "bg_home",
+      "filename": "bg_home.png",
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceAspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentPixels": 0,
+      "lowAlphaPixels": 0,
+      "cornerRGBA": [
+        [
+          253,
+          247,
+          231,
+          255
+        ],
+        [
+          253,
+          248,
+          231,
+          255
+        ],
+        [
+          243,
+          222,
+          192,
+          255
+        ],
+        [
+          244,
+          223,
+          190,
+          255
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "sourceBytes": 977091,
+      "outputBytes": 865622,
+      "sourceSha256": "c128df9eea42bcb93d238ce22778eaa06b5c2bd5be38e8c535c935ee8fa30fdf",
+      "outputSha256": "bcc338f65fa6ee38f79f699f03fc3f16d9ce6cde5bc66dcf8ab9d670eabc495b",
+      "backgroundInspection": "Intentional opaque scene background."
+    },
+    {
+      "key": "bg_icecream_shop",
+      "filename": "bg_icecream_shop.png",
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceAspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentPixels": 0,
+      "lowAlphaPixels": 0,
+      "cornerRGBA": [
+        [
+          253,
+          249,
+          230,
+          255
+        ],
+        [
+          253,
+          249,
+          230,
+          255
+        ],
+        [
+          176,
+          212,
+          248,
+          255
+        ],
+        [
+          177,
+          215,
+          250,
+          255
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "sourceBytes": 983860,
+      "outputBytes": 874637,
+      "sourceSha256": "0aae74a424856edf3babfe41b878e98ee1ee4a5b9653bd5efd837710d889b1b5",
+      "outputSha256": "2ba0d146296bc4c6fe7808c3966f991d4932802357b293c6d17e1df779f8baa7",
+      "backgroundInspection": "Intentional opaque scene background."
+    },
+    {
+      "key": "bg_park",
+      "filename": "bg_park.png",
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceAspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentPixels": 0,
+      "lowAlphaPixels": 0,
+      "cornerRGBA": [
+        [
+          253,
+          250,
+          228,
+          255
+        ],
+        [
+          253,
+          250,
+          229,
+          255
+        ],
+        [
+          189,
+          210,
+          146,
+          255
+        ],
+        [
+          190,
+          215,
+          145,
+          255
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "sourceBytes": 1102037,
+      "outputBytes": 993010,
+      "sourceSha256": "2323fcea543b78cd0bdded628759f32078091985bb4bf3a3213595a3fb5eae4c",
+      "outputSha256": "89827117eb8789b95f50a4ef9dd67e96b854ca2eb0e995747a8d828220a36bb8",
+      "backgroundInspection": "Intentional opaque scene background."
+    },
+    {
+      "key": "bouquet",
+      "filename": "bouquet.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1264736,
+      "lowAlphaPixels": 7209,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 132,
+        "y": 53,
+        "width": 1078,
+        "height": 1159,
+        "pixels": 307780
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 298,
+        "y": 216,
+        "width": 662,
+        "height": 900,
+        "pixels": 300571
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 299,
+        "y": 216,
+        "width": 661,
+        "height": 899,
+        "pixels": 297782
+      },
+      "crop": {
+        "x": 132,
+        "y": 53,
+        "width": 1078,
+        "height": 1159
+      },
+      "sourceBytes": 362162,
+      "outputBytes": 330378,
+      "sourceSha256": "2b5c2b2f94815324c212326cb96138497e42f1a9ab14052b7653e7f915680414",
+      "outputSha256": "9351faf0513845fd76aff4ebd8c418ad4e315eadbd1fad51ef7bf17810719fcd",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "dinner_food",
+      "filename": "dinner_food.png",
+      "sourceSize": {
+        "width": 1774,
+        "height": 887
+      },
+      "sourceAspect": 2,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1146903,
+      "lowAlphaPixels": 5528,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 230,
+        "y": 260,
+        "width": 1320,
+        "height": 550,
+        "pixels": 426635
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 232,
+        "y": 263,
+        "width": 1315,
+        "height": 413,
+        "pixels": 421107
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 233,
+        "y": 264,
+        "width": 1313,
+        "height": 411,
+        "pixels": 418650
+      },
+      "crop": {
+        "x": 230,
+        "y": 260,
+        "width": 1320,
+        "height": 550
+      },
+      "sourceBytes": 421092,
+      "outputBytes": 363582,
+      "sourceSha256": "4b7ff5f3d4e73f12ed8402514be38d0a873a8ec1466ad96b0e641b80c5ea6e89",
+      "outputSha256": "7936071a3f9a750123a3299f5cefb3d90e618feecafaab058832b63cd2f41e22",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "dog_front",
+      "filename": "dog_front.png",
+      "sourceSize": {
+        "width": 1536,
+        "height": 1024
+      },
+      "sourceAspect": 1.5,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 1192095,
+      "lowAlphaPixels": 6498,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 242,
+        "y": 208,
+        "width": 1056,
+        "height": 790,
+        "pixels": 380769
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 244,
+        "y": 211,
+        "width": 1051,
+        "height": 614,
+        "pixels": 374271
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 245,
+        "y": 211,
+        "width": 1050,
+        "height": 614,
+        "pixels": 372269
+      },
+      "crop": {
+        "x": 242,
+        "y": 208,
+        "width": 1056,
+        "height": 790
+      },
+      "sourceBytes": 633572,
+      "outputBytes": 397928,
+      "sourceSha256": "2d64d1ae1142ba33620a8c5d774cb64e20cc31ef63abd1f7c7692bebd95a5c8c",
+      "outputSha256": "225df3adfae1e4a30fbe7eeed09768a6166cd078d9c2dc3b9b710ee4ea7c0544",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "dog_happy",
+      "filename": "dog_happy.png",
+      "sourceSize": {
+        "width": 1586,
+        "height": 992
+      },
+      "sourceAspect": 1.5987903225806452,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1116946,
+      "lowAlphaPixels": 7874,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 113,
+        "y": 245,
+        "width": 1399,
+        "height": 659,
+        "pixels": 456366
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 118,
+        "y": 259,
+        "width": 1391,
+        "height": 562,
+        "pixels": 448492
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 118,
+        "y": 260,
+        "width": 1391,
+        "height": 560,
+        "pixels": 445752
+      },
+      "crop": {
+        "x": 113,
+        "y": 245,
+        "width": 1399,
+        "height": 659
+      },
+      "sourceBytes": 408161,
+      "outputBytes": 358726,
+      "sourceSha256": "fcc97f8aeff014a667875d43e78cca7a364a37650fcc8902de5dec4a451df5aa",
+      "outputSha256": "3d180531f0646f4450a04333fc18968b539f881577daee35d48df2485f458e10",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "dog_side",
+      "filename": "dog_side.png",
+      "sourceSize": {
+        "width": 1586,
+        "height": 992
+      },
+      "sourceAspect": 1.5987903225806452,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1112642,
+      "lowAlphaPixels": 7942,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 82,
+        "y": 37,
+        "width": 1472,
+        "height": 913,
+        "pixels": 460670
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 84,
+        "y": 256,
+        "width": 1431,
+        "height": 543,
+        "pixels": 452728
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 85,
+        "y": 256,
+        "width": 1429,
+        "height": 543,
+        "pixels": 450214
+      },
+      "crop": {
+        "x": 82,
+        "y": 37,
+        "width": 1472,
+        "height": 913
+      },
+      "sourceBytes": 407255,
+      "outputBytes": 351654,
+      "sourceSha256": "9ef837dab6da2378aa2ecb01516895130de99d01424bd2ad39a7edbc56be5792",
+      "outputSha256": "fd845089ef3f2a58796d9acedb801e10b946a65b34d3d54ca7dbbd37db9887ee",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_angry",
+      "filename": "frog_angry.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1177650,
+      "lowAlphaPixels": 5064,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 156,
+        "y": 53,
+        "width": 943,
+        "height": 931,
+        "pixels": 394866
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 158,
+        "y": 315,
+        "width": 938,
+        "height": 667,
+        "pixels": 389802
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 159,
+        "y": 316,
+        "width": 936,
+        "height": 666,
+        "pixels": 387470
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 321767,
+      "outputBytes": 278366,
+      "sourceSha256": "3dfabecbcfe55ecd95c4bd4cf0b8e5e2e97bc419c447ed0963e4f376f7c5aa6a",
+      "outputSha256": "71eae57c0ba49f21cbb61ddd74df4450c5a7cf1b4e1e81041bc20c9ea3df4535",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_back",
+      "filename": "frog_back.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1136736,
+      "lowAlphaPixels": 6177,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 137,
+        "y": 54,
+        "width": 1071,
+        "height": 1158,
+        "pixels": 435780
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 139,
+        "y": 307,
+        "width": 1053,
+        "height": 742,
+        "pixels": 429603
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 140,
+        "y": 308,
+        "width": 1051,
+        "height": 740,
+        "pixels": 427052
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 323639,
+      "outputBytes": 274298,
+      "sourceSha256": "64ddac4d34f764ed81477421c3fd73117a2b776c213debc9d7cfa14cf7aa8b1e",
+      "outputSha256": "c74da560883255b2bbabfb06859043f41ec5aa195f0494a210ada240486d3fac",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_neutral",
+      "filename": "frog_neutral.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1195184,
+      "lowAlphaPixels": 4939,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 162,
+        "y": 55,
+        "width": 925,
+        "height": 1157,
+        "pixels": 377332
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 172,
+        "y": 306,
+        "width": 912,
+        "height": 654,
+        "pixels": 372393
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 172,
+        "y": 307,
+        "width": 912,
+        "height": 652,
+        "pixels": 370141
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 305998,
+      "outputBytes": 262573,
+      "sourceSha256": "9ffbc63dcfc754939c5a4aac2ddb61b7a2c0a931fb1441034185de65b48edee7",
+      "outputSha256": "54237881c565c1f3b9e3d49df2c47d395258c0f666f804770df777f7c8c25d15",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_sit",
+      "filename": "frog_sit.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1131757,
+      "lowAlphaPixels": 5831,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 129,
+        "y": 359,
+        "width": 997,
+        "height": 853,
+        "pixels": 440759
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 131,
+        "y": 362,
+        "width": 993,
+        "height": 682,
+        "pixels": 434928
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 132,
+        "y": 363,
+        "width": 991,
+        "height": 680,
+        "pixels": 432565
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 381297,
+      "outputBytes": 333081,
+      "sourceSha256": "b24f3c7ecdfcbc8e61ef3f8c896cdc082ef281bf4573866529a73a6fa5a6b308",
+      "outputSha256": "52201fb240b05accafd23ab22fa47805bfabb6bca9e8d503f48258b92d9e336c",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_walk_a",
+      "filename": "frog_walk_a.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1228197,
+      "lowAlphaPixels": 4832,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 184,
+        "y": 53,
+        "width": 887,
+        "height": 928,
+        "pixels": 344319
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 187,
+        "y": 338,
+        "width": 881,
+        "height": 641,
+        "pixels": 339487
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 187,
+        "y": 339,
+        "width": 880,
+        "height": 640,
+        "pixels": 337204
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 299446,
+      "outputBytes": 257433,
+      "sourceSha256": "a6c0adb3aef2db018a102f5d63f3288e978129417dd4c35ba35d37abb4061397",
+      "outputSha256": "8d569ce17ed409de9cf5e1fff9f99d23a7a0e9336a280e2405ace2612aa699af",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "frog_walk_b",
+      "filename": "frog_walk_b.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1319604,
+      "lowAlphaPixels": 4445,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 162,
+        "y": 389,
+        "width": 871,
+        "height": 554,
+        "pixels": 252912
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 247,
+        "y": 391,
+        "width": 783,
+        "height": 550,
+        "pixels": 248467
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 248,
+        "y": 392,
+        "width": 782,
+        "height": 548,
+        "pixels": 246506
+      },
+      "crop": {
+        "x": 129,
+        "y": 53,
+        "width": 1079,
+        "height": 1159
+      },
+      "sourceBytes": 246016,
+      "outputBytes": 208757,
+      "sourceSha256": "3ea750e311257b40a270e23e8fa44335925214cb3bba8d343dc0c13fa1ec6379",
+      "outputSha256": "9fd93678ee44d2f53ef214325e61107b8df22b6112ec17bfa76ab5b47e5125c1",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "penguin_snacking",
+      "filename": "penguin_snacking.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1080711,
+      "lowAlphaPixels": 4517,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 210,
+        "y": 233,
+        "width": 867,
+        "height": 800,
+        "pixels": 491805
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 236,
+        "y": 236,
+        "width": 838,
+        "height": 795,
+        "pixels": 487288
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 236,
+        "y": 236,
+        "width": 838,
+        "height": 794,
+        "pixels": 485498
+      },
+      "crop": {
+        "x": 210,
+        "y": 233,
+        "width": 867,
+        "height": 800
+      },
+      "sourceBytes": 384933,
+      "outputBytes": 325280,
+      "sourceSha256": "71ef104cfda9a73eba182b0489137c68da0789cb9e99965a94b563075ad37e21",
+      "outputSha256": "659264c1710f7838a0c06eb492959854340733255a5c68e273cbafa3322500fa",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "penguin_surprised",
+      "filename": "penguin_surprised.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 970467,
+      "lowAlphaPixels": 5712,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 197,
+        "y": 207,
+        "width": 933,
+        "height": 886,
+        "pixels": 602049
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 199,
+        "y": 210,
+        "width": 928,
+        "height": 881,
+        "pixels": 596337
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 200,
+        "y": 210,
+        "width": 926,
+        "height": 880,
+        "pixels": 594079
+      },
+      "crop": {
+        "x": 197,
+        "y": 207,
+        "width": 933,
+        "height": 886
+      },
+      "sourceBytes": 463636,
+      "outputBytes": 401233,
+      "sourceSha256": "3512b5c0d18f9ff2fbc3f67fb915ba9cb46428f2daf03e2cc0199631b554f5c0",
+      "outputSha256": "1f659cd9ad20d0581af56455c22fda58be84a6f4b1e4468716e123958fb2f0cc",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "penguin_waiting",
+      "filename": "penguin_waiting.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1206344,
+      "lowAlphaPixels": 3882,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 210,
+        "y": 53,
+        "width": 749,
+        "height": 1014,
+        "pixels": 366172
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 338,
+        "y": 258,
+        "width": 578,
+        "height": 786,
+        "pixels": 362290
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 339,
+        "y": 259,
+        "width": 576,
+        "height": 784,
+        "pixels": 360526
+      },
+      "crop": {
+        "x": 210,
+        "y": 53,
+        "width": 749,
+        "height": 1014
+      },
+      "sourceBytes": 348310,
+      "outputBytes": 293896,
+      "sourceSha256": "51aa14d491fe21d2434eb456fc96b154284f62c736338cbd17b238883d43a507",
+      "outputSha256": "b086b082104429f0a97116ac691f9333f376b6238645b82397d7d3d8a767844a",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "rice_icecream_empty",
+      "filename": "rice_icecream_empty.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1217322,
+      "lowAlphaPixels": 3696,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 210,
+        "y": 53,
+        "width": 811,
+        "height": 1159,
+        "pixels": 355194
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 236,
+        "y": 364,
+        "width": 782,
+        "height": 573,
+        "pixels": 351498
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 236,
+        "y": 365,
+        "width": 781,
+        "height": 571,
+        "pixels": 349792
+      },
+      "crop": {
+        "x": 210,
+        "y": 53,
+        "width": 811,
+        "height": 1159
+      },
+      "sourceBytes": 315303,
+      "outputBytes": 257734,
+      "sourceSha256": "8a9515a9c1ea7b57de8b745d8d0531570146ea712e7657b55a55004914ebe32c",
+      "outputSha256": "3feedc182a6877264abe91dfab7d36c2b54a206d0444f8db0e60ab4efb7e7d9a",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    },
+    {
+      "key": "rice_icecream_full",
+      "filename": "rice_icecream_full.png",
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceAspect": 1,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixels": 1040775,
+      "lowAlphaPixels": 4999,
+      "cornerRGBA": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "trueNonzeroBounds": {
+        "x": 210,
+        "y": 209,
+        "width": 836,
+        "height": 870,
+        "pixels": 531741
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 216,
+        "y": 212,
+        "width": 828,
+        "height": 864,
+        "pixels": 526742
+      },
+      "opaqueCoreBoundsAlphaAbove128": {
+        "x": 217,
+        "y": 213,
+        "width": 826,
+        "height": 862,
+        "pixels": 524855
+      },
+      "crop": {
+        "x": 210,
+        "y": 209,
+        "width": 836,
+        "height": 870
+      },
+      "sourceBytes": 459598,
+      "outputBytes": 391671,
+      "sourceSha256": "b51488e391c950e9079fe9338f1e6c7c6fc33526a63f11a641bc981a1b2ac930",
+      "outputSha256": "b211c5486d333b7c7ceac63f0db7d67d3767473f7058aea5fd7061ddb50aac98",
+      "backgroundInspection": "Genuine transparent background; visually inspected, no baked checkerboard."
+    }
+  ],
+  "photos": [
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_52 PM-1.png",
+      "outputName": "01.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1541053,
+      "sha256": "8250731cc42954503b19ce7e9e7de722a56f2f940be13c322788168dd7e0d250"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_53 PM-2.png",
+      "outputName": "02.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1642752,
+      "sha256": "4cbe964ff1e3c1a79ab6652c6cb355eaeae2063b11146b00989a86fb0db37253"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_53 PM-3.png",
+      "outputName": "03.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1680174,
+      "sha256": "79bc1b7cca21d855ae1f78ab63221c97f07a75dcefdad6011e944b94d86892c9"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_54 PM-4.png",
+      "outputName": "04.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1746715,
+      "sha256": "b6c2741c4ca480128da8e02293b087c28a3cf792b66568c42fca398a5984202a"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_55 PM-5.png",
+      "outputName": "05.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1511207,
+      "sha256": "0519b33e3adc4c7483af0b1d6ca26afe6bfb3489bbeb0715d4fb89528d107ea4"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_55 PM-6.png",
+      "outputName": "06.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1355508,
+      "sha256": "fbb06a7dad96b33b6ee5e7ffcf6a5fe623c0115453d6ebf38a387a6e4caea6e1"
+    },
+    {
+      "sourceName": "ChatGPT Image Sep 29, 2026, 05_36_56 PM-7.png",
+      "outputName": "07.png",
+      "width": 1672,
+      "height": 941,
+      "aspect": 1.7768331562167907,
+      "hasAlpha": false,
+      "trueNonzeroBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "perceptibleBoundsAlphaAbove16": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "pixels": 1573352
+      },
+      "backgroundInspection": "Intentional opaque user-supplied image; inspected visually.",
+      "bytes": 1494694,
+      "sha256": "588a220681cf41adf02fb77011bb4c6b0dfc96085b6599ee1c0613a66ba79feb"
+    }
+  ],
+  "voice": [
+    {
+      "id": "N01",
+      "src": "audio/voice/N01.mp3",
+      "duration": 5.08,
+      "bytes": 123550,
+      "sha256": "ab65a54a59830908809b73a660e1f4aafd668d523db822d8b357af4b9c189be5"
+    },
+    {
+      "id": "N02",
+      "src": "audio/voice/N02.mp3",
+      "duration": 4.96,
+      "bytes": 120415,
+      "sha256": "f10abf67aececd5f80db175e81c5e60f7691fab69f5c827249331ef71ce7b0f8"
+    },
+    {
+      "id": "N03",
+      "src": "audio/voice/N03.mp3",
+      "duration": 5.87,
+      "bytes": 142358,
+      "sha256": "3312e5c2c429c29b4b0f24b0d8c0322527e8f62a6881d28af30d03c7672ef1ca"
+    },
+    {
+      "id": "N04",
+      "src": "audio/voice/N04.mp3",
+      "duration": 5.33,
+      "bytes": 129819,
+      "sha256": "cb8f3117cf4b7f4a445aef5aefc67cdfbc9c3b154088875be37a77cbdaf87758"
+    },
+    {
+      "id": "N05",
+      "src": "audio/voice/N05.mp3",
+      "duration": 6.29,
+      "bytes": 152389,
+      "sha256": "243cfadc374f0cb95409a9974546c0582d6d792bbe0c8fb4630fab7b58475f67"
+    },
+    {
+      "id": "N06",
+      "src": "audio/voice/N06.mp3",
+      "duration": 5.03,
+      "bytes": 122296,
+      "sha256": "6982050d17b0ecbb1290b27f24a42b19138271c400973c84076e73c7ae4f8777"
+    },
+    {
+      "id": "N07",
+      "src": "audio/voice/N07.mp3",
+      "duration": 5.36,
+      "bytes": 130446,
+      "sha256": "30e44d48edcbcd2abbbcf3538658ff3b40c350cf9e569c642d8b2a7aad539178"
+    },
+    {
+      "id": "N08",
+      "src": "audio/voice/N08.mp3",
+      "duration": 5.97,
+      "bytes": 144865,
+      "sha256": "b20e0a79bd74a5f33dd0b4975c9bcb83c25f0f1114450345cfd4e7f434a42a1c"
+    },
+    {
+      "id": "N09",
+      "src": "audio/voice/N09.mp3",
+      "duration": 5.89,
+      "bytes": 142985,
+      "sha256": "d17cb29f13b671fdc6e995f782a6d4f1ac05eb12e405b0ac83ea5910d4b5f120"
+    },
+    {
+      "id": "N10",
+      "src": "audio/voice/N10.mp3",
+      "duration": 5.94,
+      "bytes": 144239,
+      "sha256": "7d506d43fdacacc7ca536567afe01c1346e7e41b2b2d7c103c62f10d4e0c2e20"
+    },
+    {
+      "id": "N11",
+      "src": "audio/voice/N11.mp3",
+      "duration": 5.96,
+      "bytes": 144865,
+      "sha256": "210e6d59aa6222c2f32604bed0d64b512eea0f8db9201c275720fe72395cc043"
+    },
+    {
+      "id": "N12",
+      "src": "audio/voice/N12.mp3",
+      "duration": 5.31,
+      "bytes": 129192,
+      "sha256": "90ef3bc3753f4dbda4c42d967b550bfe62f3f073d117efbbb9cb6218ccc37150"
+    },
+    {
+      "id": "P01",
+      "src": "audio/voice/P01.mp3",
+      "duration": 4.44,
+      "bytes": 107876,
+      "sha256": "632b0b58988da110b1d6c3b2b363cf47e4584d3035b27c530c59183b71a97ca7"
+    },
+    {
+      "id": "N13",
+      "src": "audio/voice/N13.mp3",
+      "duration": 4.59,
+      "bytes": 111638,
+      "sha256": "af3b685ef93e516e1ff5de2f8251ee60b890d4e7f72fae2677f1bd30ba41cf8c"
+    },
+    {
+      "id": "N14",
+      "src": "audio/voice/N14.mp3",
+      "duration": 6.51,
+      "bytes": 158031,
+      "sha256": "1bfb4cfd62faa9222e6a4bafc2ec68076bf8c82b3376f20011c978aa30014606"
+    },
+    {
+      "id": "N15",
+      "src": "audio/voice/N15.mp3",
+      "duration": 4.67,
+      "bytes": 113519,
+      "sha256": "e4b9a1f6eeb507caa5bea7c67b10ddfc4a04be2877c3d270a91dfaa24b7ff379"
+    },
+    {
+      "id": "P02",
+      "src": "audio/voice/P02.mp3",
+      "duration": 4.7,
+      "bytes": 114145,
+      "sha256": "ff704538da8e616758add62d080044a572e4fe5284fc51dae8fe563700047906"
+    },
+    {
+      "id": "N16",
+      "src": "audio/voice/N16.mp3",
+      "duration": 6.26,
+      "bytes": 151762,
+      "sha256": "3713fd5c9fb8bd4d89ce4b7a93400dcfdc174358de293510b18fc677503aef5c"
+    },
+    {
+      "id": "N17",
+      "src": "audio/voice/N17.mp3",
+      "duration": 4.18,
+      "bytes": 102234,
+      "sha256": "c0383b5dbb1b725c6f4f256c8105a7d02d1154c4cf373c1ab2719546d5da0eaa"
+    },
+    {
+      "id": "N18",
+      "src": "audio/voice/N18.mp3",
+      "duration": 5.21,
+      "bytes": 126684,
+      "sha256": "fb5bbe84959b0c8515ee47c8f78f5231d746de14ab28c7f94d10aa59e4328338"
+    },
+    {
+      "id": "N19",
+      "src": "audio/voice/N19.mp3",
+      "duration": 5.96,
+      "bytes": 144865,
+      "sha256": "da71f147c2550985ab7a66ad5520e3c3755726fa08f0b8c3d0cf385cd57db4c6"
+    },
+    {
+      "id": "N20",
+      "src": "audio/voice/N20.mp3",
+      "duration": 5.14,
+      "bytes": 124803,
+      "sha256": "ed60b6a077ac35c9ae9ae94ec150d002c4455022c562ac8ee6b33eed1eb62588"
+    },
+    {
+      "id": "N21",
+      "src": "audio/voice/N21.mp3",
+      "duration": 4.79,
+      "bytes": 116653,
+      "sha256": "da5db876f77b91640c493e27064c809bbf3db6d7b1fdde4c6ba04bf23359bbcf"
+    },
+    {
+      "id": "N22",
+      "src": "audio/voice/N22.mp3",
+      "duration": 5.61,
+      "bytes": 136088,
+      "sha256": "c02fd1649715f11517160053990b28ec9976522e68f8e0c595169cd2491ce395"
+    },
+    {
+      "id": "P03",
+      "src": "audio/voice/P03.mp3",
+      "duration": 4.27,
+      "bytes": 104114,
+      "sha256": "c426474ea9ae1f3781369a2f577f00ee4a8d11fea88ec07a71d9a8c0d5eb6f2c"
+    },
+    {
+      "id": "N23",
+      "src": "audio/voice/N23.mp3",
+      "duration": 3.88,
+      "bytes": 94710,
+      "sha256": "2282e643f838479fe55e2bf7005d4558c5fb194fb252784fc6c7fe3b6a7e29b6"
+    },
+    {
+      "id": "N24",
+      "src": "audio/voice/N24.mp3",
+      "duration": 4.5,
+      "bytes": 109757,
+      "sha256": "f9bd2ce1b39e4efa2b1a788113d67a7cae22784b9c0313b955af07ecd3531ee7"
+    },
+    {
+      "id": "N25",
+      "src": "audio/voice/N25.mp3",
+      "duration": 4.86,
+      "bytes": 118534,
+      "sha256": "ea165bfd26e4a02ddc121436d5e10035abd1bdb6ce0761bb5a62f55ea77ee4fe"
+    },
+    {
+      "id": "N26",
+      "src": "audio/voice/N26.mp3",
+      "duration": 7.09,
+      "bytes": 171824,
+      "sha256": "cfd85e3afa7d893e6048e76dc955dad49e0db6ff1c4c85d067bc6e041da4a2f2"
+    },
+    {
+      "id": "N27",
+      "src": "audio/voice/N27.mp3",
+      "duration": 3.63,
+      "bytes": 88441,
+      "sha256": "a169b034838d64040814639c4cf88309e669da1ccfaf639a94d7abd042d8a5d8"
+    },
+    {
+      "id": "N28",
+      "src": "audio/voice/N28.mp3",
+      "duration": 5.41,
+      "bytes": 131700,
+      "sha256": "50cbd0feeceb753a96f6f045f51b5cb7f3b301d18411a1b3b69343d87a1d428f"
+    },
+    {
+      "id": "P04",
+      "src": "audio/voice/P04.mp3",
+      "duration": 8.77,
+      "bytes": 211948,
+      "sha256": "309eb801f8f378fb580209013eb55d9b5de3083e5d340d84cb32d7be57f365f6"
+    },
+    {
+      "id": "P05",
+      "src": "audio/voice/P05.mp3",
+      "duration": 7,
+      "bytes": 169316,
+      "sha256": "d424d9e5d860da142a8fac15ffd77f5ffce5db8d8ecd0bc4d83821a22dc25be5"
+    },
+    {
+      "id": "P06",
+      "src": "audio/voice/P06.mp3",
+      "duration": 3.53,
+      "bytes": 86560,
+      "sha256": "b18446dfad15e48590c82aed7b4305167a2ca89f0a3bc235e315ffae480333eb"
+    },
+    {
+      "id": "N29",
+      "src": "audio/voice/N29.mp3",
+      "duration": 5.28,
+      "bytes": 128565,
+      "sha256": "5590fa2a27fbc1e1a68545fe001b339b7323188a09497504ffd95df2987bbee4"
+    },
+    {
+      "id": "N30",
+      "src": "audio/voice/N30.mp3",
+      "duration": 6.64,
+      "bytes": 161166,
+      "sha256": "cf79f94cf53a2e7d48c4558a321ecd9f98ad66e7c5e676cfd963d7c96f893569"
+    },
+    {
+      "id": "P07",
+      "src": "audio/voice/P07.mp3",
+      "duration": 3.68,
+      "bytes": 89695,
+      "sha256": "ff2f9cd17e56002f2e29e2050da26b9972f10e633be993ebb1c85118c66b8b78"
+    },
+    {
+      "id": "N31",
+      "src": "audio/voice/N31.mp3",
+      "duration": 5.44,
+      "bytes": 132327,
+      "sha256": "e3d4bf8ab38e43deed2d6030684863660e213447ffb9d809dbb3ac506dfe9f92"
+    },
+    {
+      "id": "N32",
+      "src": "audio/voice/N32.mp3",
+      "duration": 7.22,
+      "bytes": 174959,
+      "sha256": "abefa50f6b343bb64113832264b93b408e55c83da2cda4c552b9f33cb2e284fc"
+    },
+    {
+      "id": "N33",
+      "src": "audio/voice/N33.mp3",
+      "duration": 7.22,
+      "bytes": 174959,
+      "sha256": "00bd66d746c6ba7a5fca55cd736de323ae93268556346d908a3ffa78d9394106"
+    }
+  ],
+  "counts": {
+    "artwork": 22,
+    "photos": 7,
+    "voice": 40
+  },
+  "totalOutputBytes": 26356609
+}

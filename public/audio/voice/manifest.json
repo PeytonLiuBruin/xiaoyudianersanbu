@@ -1,0 +1,282 @@
+{
+  "N01": {
+    "start": 0,
+    "end": 5.08,
+    "duration": 5.08,
+    "mp3": "mp3/N01.mp3",
+    "wav": "wav/N01.wav"
+  },
+  "N02": {
+    "start": 4.62,
+    "end": 9.58,
+    "duration": 4.96,
+    "mp3": "mp3/N02.mp3",
+    "wav": "wav/N02.wav"
+  },
+  "N03": {
+    "start": 8.58,
+    "end": 14.45,
+    "duration": 5.87,
+    "mp3": "mp3/N03.mp3",
+    "wav": "wav/N03.wav"
+  },
+  "N04": {
+    "start": 13.45,
+    "end": 18.78,
+    "duration": 5.33,
+    "mp3": "mp3/N04.mp3",
+    "wav": "wav/N04.wav"
+  },
+  "N05": {
+    "start": 18.05,
+    "end": 24.34,
+    "duration": 6.29,
+    "mp3": "mp3/N05.mp3",
+    "wav": "wav/N05.wav"
+  },
+  "N06": {
+    "start": 23.68,
+    "end": 28.71,
+    "duration": 5.03,
+    "mp3": "mp3/N06.mp3",
+    "wav": "wav/N06.wav"
+  },
+  "N07": {
+    "start": 28.08,
+    "end": 33.44,
+    "duration": 5.36,
+    "mp3": "mp3/N07.mp3",
+    "wav": "wav/N07.wav"
+  },
+  "N08": {
+    "start": 32.61,
+    "end": 38.58,
+    "duration": 5.97,
+    "mp3": "mp3/N08.mp3",
+    "wav": "wav/N08.wav"
+  },
+  "N09": {
+    "start": 38.1,
+    "end": 43.99,
+    "duration": 5.89,
+    "mp3": "mp3/N09.mp3",
+    "wav": "wav/N09.wav"
+  },
+  "N10": {
+    "start": 43.36,
+    "end": 49.3,
+    "duration": 5.94,
+    "mp3": "mp3/N10.mp3",
+    "wav": "wav/N10.wav"
+  },
+  "N11": {
+    "start": 49.07,
+    "end": 55.03,
+    "duration": 5.96,
+    "mp3": "mp3/N11.mp3",
+    "wav": "wav/N11.wav"
+  },
+  "N12": {
+    "start": 54.59,
+    "end": 59.9,
+    "duration": 5.31,
+    "mp3": "mp3/N12.mp3",
+    "wav": "wav/N12.wav"
+  },
+  "P01": {
+    "start": 59.56,
+    "end": 64,
+    "duration": 4.44,
+    "mp3": "mp3/P01.mp3",
+    "wav": "wav/P01.wav"
+  },
+  "N13": {
+    "start": 63.93,
+    "end": 68.52,
+    "duration": 4.59,
+    "mp3": "mp3/N13.mp3",
+    "wav": "wav/N13.wav"
+  },
+  "N14": {
+    "start": 68.05,
+    "end": 74.56,
+    "duration": 6.51,
+    "mp3": "mp3/N14.mp3",
+    "wav": "wav/N14.wav"
+  },
+  "N15": {
+    "start": 74.81,
+    "end": 79.48,
+    "duration": 4.67,
+    "mp3": "mp3/N15.mp3",
+    "wav": "wav/N15.wav"
+  },
+  "P02": {
+    "start": 79.75,
+    "end": 84.45,
+    "duration": 4.7,
+    "mp3": "mp3/P02.mp3",
+    "wav": "wav/P02.wav"
+  },
+  "N16": {
+    "start": 84.83,
+    "end": 91.09,
+    "duration": 6.26,
+    "mp3": "mp3/N16.mp3",
+    "wav": "wav/N16.wav"
+  },
+  "N17": {
+    "start": 91.78,
+    "end": 95.96,
+    "duration": 4.18,
+    "mp3": "mp3/N17.mp3",
+    "wav": "wav/N17.wav"
+  },
+  "N18": {
+    "start": 96.03,
+    "end": 101.24,
+    "duration": 5.21,
+    "mp3": "mp3/N18.mp3",
+    "wav": "wav/N18.wav"
+  },
+  "N19": {
+    "start": 101.49,
+    "end": 107.45,
+    "duration": 5.96,
+    "mp3": "mp3/N19.mp3",
+    "wav": "wav/N19.wav"
+  },
+  "N20": {
+    "start": 107.26,
+    "end": 112.4,
+    "duration": 5.14,
+    "mp3": "mp3/N20.mp3",
+    "wav": "wav/N20.wav"
+  },
+  "N21": {
+    "start": 112.18,
+    "end": 116.97,
+    "duration": 4.79,
+    "mp3": "mp3/N21.mp3",
+    "wav": "wav/N21.wav"
+  },
+  "N22": {
+    "start": 117.4,
+    "end": 123.01,
+    "duration": 5.61,
+    "mp3": "mp3/N22.mp3",
+    "wav": "wav/N22.wav"
+  },
+  "P03": {
+    "start": 123.26,
+    "end": 127.53,
+    "duration": 4.27,
+    "mp3": "mp3/P03.mp3",
+    "wav": "wav/P03.wav"
+  },
+  "N23": {
+    "start": 127.92,
+    "end": 131.8,
+    "duration": 3.88,
+    "mp3": "mp3/N23.mp3",
+    "wav": "wav/N23.wav"
+  },
+  "N24": {
+    "start": 132.16,
+    "end": 136.66,
+    "duration": 4.5,
+    "mp3": "mp3/N24.mp3",
+    "wav": "wav/N24.wav"
+  },
+  "N25": {
+    "start": 137.05,
+    "end": 141.91,
+    "duration": 4.86,
+    "mp3": "mp3/N25.mp3",
+    "wav": "wav/N25.wav"
+  },
+  "N26": {
+    "start": 142.08,
+    "end": 149.17,
+    "duration": 7.09,
+    "mp3": "mp3/N26.mp3",
+    "wav": "wav/N26.wav"
+  },
+  "N27": {
+    "start": 149.45,
+    "end": 153.08,
+    "duration": 3.63,
+    "mp3": "mp3/N27.mp3",
+    "wav": "wav/N27.wav"
+  },
+  "N28": {
+    "start": 153.8,
+    "end": 159.21,
+    "duration": 5.41,
+    "mp3": "mp3/N28.mp3",
+    "wav": "wav/N28.wav"
+  },
+  "P04": {
+    "start": 159.74,
+    "end": 168.51,
+    "duration": 8.77,
+    "mp3": "mp3/P04.mp3",
+    "wav": "wav/P04.wav"
+  },
+  "P05": {
+    "start": 169.78,
+    "end": 176.78,
+    "duration": 7,
+    "mp3": "mp3/P05.mp3",
+    "wav": "wav/P05.wav"
+  },
+  "P06": {
+    "start": 176.81,
+    "end": 180.34,
+    "duration": 3.53,
+    "mp3": "mp3/P06.mp3",
+    "wav": "wav/P06.wav"
+  },
+  "N29": {
+    "start": 180.21,
+    "end": 185.49,
+    "duration": 5.28,
+    "mp3": "mp3/N29.mp3",
+    "wav": "wav/N29.wav"
+  },
+  "N30": {
+    "start": 184.88,
+    "end": 191.52,
+    "duration": 6.64,
+    "mp3": "mp3/N30.mp3",
+    "wav": "wav/N30.wav"
+  },
+  "P07": {
+    "start": 191.62,
+    "end": 195.3,
+    "duration": 3.68,
+    "mp3": "mp3/P07.mp3",
+    "wav": "wav/P07.wav"
+  },
+  "N31": {
+    "start": 195.39,
+    "end": 200.83,
+    "duration": 5.44,
+    "mp3": "mp3/N31.mp3",
+    "wav": "wav/N31.wav"
+  },
+  "N32": {
+    "start": 201.29,
+    "end": 208.51,
+    "duration": 7.22,
+    "mp3": "mp3/N32.mp3",
+    "wav": "wav/N32.wav"
+  },
+  "N33": {
+    "start": 208.4,
+    "end": 215.62,
+    "duration": 7.22,
+    "mp3": "mp3/N33.mp3",
+    "wav": "wav/N33.wav"
+  }
+}
